@@ -1,0 +1,116 @@
+/* Horizontal grid */
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.flex-item-1 {
+  flex: 2;
+}
+
+.flex-item-2 {
+  flex: 3;
+  justify-content: center; /* align items horizontally */
+  align-items: center; /* align items vertically */
+  background-color: rgba(200, 200, 200, 0.5);
+  min-height: 700px;
+}
+
+.flex-item-3 {
+  flex: 1;
+  background-color: #495E57;
+}
+
+.flex-item-4 {
+  flex: 1;
+  background-color: rgba(200, 200, 200, 0.5);
+}
+
+/* Vertical grid */
+.vertical-flex-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.vertical-flex-item {
+  background-color: #495E57;
+  font-size: 18px;
+}
+.vertical-flex-item-center {
+  flex: 2;
+}
+.vertical-flex-item-border {
+  flex: 1;
+}
+.reserveButton {
+  margin-top: 50px;
+  color: #495E57;
+  font-size: 18px;
+  font-weight: bold;
+  height: 50px;
+  border-radius: 10px;
+  border: 0px;
+  background-color: #F4CE14;
+}
+.imgPasta {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+.shortDescription {
+  color: black;
+  padding-right: 20px;
+}
+.vertical-flex-item-center > h4 {
+  color: black;
+}
+/* Vertical grid */
+.menuitem-vertical-flex-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.menuitem-vertical-flex-item {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+.headingMiddle {
+  margin-top: 50px;
+  text-align: center;
+}
+.menuItemComponent {
+  justify-content: center; /* align items horizontally */
+  align-items: center;
+}
+/* Vertical grid */
+.customer-vertical-flex-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.customer-vertical-flex-item {
+  font-size: 18px;
+  flex: 1;
+}
+.flex-item-3 > h1 {
+  color: #F4CE14;
+}
+/* Vertical grid */
+.about-vertical-flex-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.about-vertical-flex-item {
+  display: flex;
+  font-size: 18px;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.about-vertical-flex-item > p {
+  margin-bottom: 50px;
+}
